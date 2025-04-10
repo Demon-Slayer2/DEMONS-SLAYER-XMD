@@ -27,9 +27,9 @@ const config = {
   REJECT_CALL: process.env.REJECT_CALL !== undefined ? process.env.REJECT_CALL === 'false' : false,
   NOT_ALLOW: process.env.NOT_ALLOW !== undefined ? process.env.NOT_ALLOW === 'true' : true,
   MODE: process.env.MODE || "private",
-  OWNER_NAME: process.env.OWNER_NAME || "Marisel",
-  OWNER_NUMBER: process.env.OWNER_NUMBER || "218942841878",
-  SUDO_NUMBER: process.env.SUDO_NUMBER || "254740007567",
+  OWNER_NAME: process.env.OWNER_NAME || "Governor",
+  OWNER_NUMBER: process.env.OWNER_NUMBER || "254745332684",
+  SUDO_NUMBER: process.env.SUDO_NUMBER || "254745332684",
   GEMINI_KEY: process.env.GEMINI_KEY || "AIzaSyCUPaxfIdZawsKZKqCqJcC-GWiQPCXKTDc",
   WELCOME: process.env.WELCOME !== undefined ? process.env.WELCOME === 'true' : false,
 };
